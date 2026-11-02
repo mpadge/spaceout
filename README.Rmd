@@ -18,14 +18,18 @@ knitr::opts_chunk$set (
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of spaceout is to make it easier to follow the style guide recommended in [pkgcheck CONTRIBUTING guide](https://docs.ropensci.org/pkgcheck/CONTRIBUTING.html#development-guidelines).
+My personal R coding style as a [`styler`](https://styler.r-lib.org/)-compatible package.
 
 ## Installation
 
-You can install the released version of spaceout with:
+You can install the released version of spaceout with any one of the following:
 
 ``` r
-remotes::install_github("ropensci-review-tools/spaceout")
+remotes::install_github("mpadge/spaceout")
+remotes::install_git ("https://codeberg.org/mpadge/spaceout")
+remotes::install_git ("https://codefloe.com/mpadge/spaceout")
+
+
 ```
 
 

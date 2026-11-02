@@ -4,17 +4,24 @@
   "identifier": "spaceout",
   "description": "Adds a space before parentheses & co, on top of more common tidyverse-style guide conventions.",
   "name": "spaceout: Holds A More Spacious Styleguide",
-  "codeRepository": "https://github.com/ropensci-review-tools/spaceout",
-  "issueTracker": "https://github.com/ropensci-review-tools/spaceout/issues",
+  "codeRepository": "https://github.com/mpadge/spaceout",
+  "issueTracker": "https://github.com/mpadge/spaceout/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.1.0.010",
+  "version": "0.1.0.011",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+  "runtimePlatform": "R version 4.6.2 (2026-10-29)",
   "author": [
+    {
+      "@type": "Person",
+      "givenName": "Mark",
+      "familyName": "Padgham",
+      "email": "mark.padgham@email.com",
+      "@id": "https://orcid.org/0000-0003-2172-5265"
+    },
     {
       "@type": "Person",
       "givenName": "Maëlle",
@@ -26,10 +33,10 @@
   "maintainer": [
     {
       "@type": "Person",
-      "givenName": "Maëlle",
-      "familyName": "Salmon",
-      "email": "msmaellesalmon@gmail.com",
-      "@id": "https://orcid.org/0000-0002-2815-0399"
+      "givenName": "Mark",
+      "familyName": "Padgham",
+      "email": "mark.padgham@email.com",
+      "@id": "https://orcid.org/0000-0003-2172-5265"
     }
   ],
   "softwareSuggestions": [
@@ -62,6 +69,6 @@
     },
     "SystemRequirements": {}
   },
-  "fileSize": "0KB",
-  "readme": "https://github.com/ropensci-review-tools/spaceout/blob/main/README.md"
+  "fileSize": "16.612KB",
+  "readme": "https://github.com/mpadge/spaceout/blob/main/README.md"
 }

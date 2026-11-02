@@ -31,11 +31,11 @@ jobs:
 
     - name: Git setup
       run: |
-          git config --global user.name "ropensci"
-          git config --global user.email "noreply@ropensci.org"
-          git clone https://github.com/ropensci-review-tools/spaceout.git
+          git config --global user.name "mpadge"
+          git config --global user.email "mark.padgham@email.com"
+          git clone https://github.com/mpadge/spaceout.git
           git fetch --unshallow origin
-          git remote add codeberg https://${{secrets.UNAME}}:${{secrets.CODEBERG}}@codeberg.org/ropensci-review-tools/spaceout.git
+          git remote add codeberg https://${{secrets.UNAME}}:${{secrets.CODEBERG}}@codeberg.org/mpadge/spaceout.git
           git push --tags codeberg main
-          git remote add codefloe https://${{secrets.UNAME}}:${{secrets.CODEFLOE}}@codefloe.com/ropensci-review-tools/spaceout.git
+          git remote add codefloe https://${{secrets.UNAME}}:${{secrets.CODEFLOE}}@codefloe.com/mpadge/spaceout.git
           git push --tags codefloe main

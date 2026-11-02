@@ -1,9 +1,11 @@
 Package: spaceout
 Title: Holds A More Spacious Styleguide
-Version: 0.1.0.010
-Authors@R: 
-    person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
-           comment = c(ORCID = "0000-0002-2815-0399"))
+Version: 0.1.0.011
+Authors@R:c(
+    person("Mark", "Padgham", , "mark.padgham@email.com", role = c("aut", "cre"),
+             comment = c(ORCID = "0000-0003-2172-5265")),
+    person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("aut"),
+           comment = c(ORCID = "0000-0002-2815-0399")))
 Description: Adds a space before parentheses & co, on top of more common tidyverse-style guide conventions.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -14,5 +16,5 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/ropensci-review-tools/spaceout
-BugReports: https://github.com/ropensci-review-tools/spaceout/issues
+URL: https://github.com/mpadge/spaceout
+BugReports: https://github.com/mpadge/spaceout/issues
